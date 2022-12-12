@@ -1,0 +1,15 @@
+.card {
+  width: 90%;
+  aspect-ratio: 0.8;
+  border: black 3px solid;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  font-size: 2vw;
+  cursor: pointer;
+  padding: 5px;
+
+  &:hover {
+    outline: gold 5px solid;
+  }
+}
